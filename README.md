@@ -1,21 +1,22 @@
 ﻿# Stubbs.HellDivers2Strats
 
-Macro Deck 2 plugin that exposes Helldivers 2 stratagems as ready-to-use actions. Each action sends the correct Control + arrow inputs so the stratagem picker opens and the combination executes in sequence.
+Macro Deck plugin that automates Helldivers 2 stratagem call-ins from a single deck button. Each action simulates the directional inputs required to request a stratagem in-game.
 
 ## Features
-- 80 stratagem definitions covering reinforcements, resupplies, sentries, exosuits, and more.
-- Simple configuration: pick a stratagem from the dropdown; no manual key mapping required.
-- Timing tuned for the in-game stratagem wheel using native key simulation (`keybd_event`) for broad compatibility.
+- Built-in registry of every Helldivers 2 stratagem, selectable from a searchable drop-down.
+- Sends the exact key sequence using the Windows `keybd_event` API so you do not need to remember combos mid-mission.
+- Adjustable timings (press duration, delay between presses, post-CTRL delay) to match your personal key repeat preferences.
+- Advanced key map override that lets you remap the default WASD + CTRL inputs if you play with a custom layout.
 
 ## Requirements
-- [Macro Deck 2](https://macrodeck.org/) version 2.14.1 or newer.
-- Plugin API version 40.
-- Windows.
+- Macro Deck 2.14.1 or newer (Plugin API v40).
+- Windows 10/11.
+- .NET 8 SDK if you plan to build the plugin yourself.
 
 ## Building
 ```powershell
-cd src
 # Restore dependencies and build a release binary
+cd src
 dotnet build -c Release
 ```
 The compiled plugin can be found at `src\bin\Release\net8.0-windows\Stubbs.HellDivers2Strats.dll`.
@@ -30,33 +31,17 @@ Copy-Item src\bin\Release\net8.0-windows\Stubbs.HellDivers2Strats.dll dist
 Compress-Archive dist\ExtensionManifest.json,dist\ExtensionIcon.png,dist\Stubbs.HellDivers2Strats.dll dist\Stubbs.HellDivers2Strats-1.0.0.zip -Force
 Rename-Item dist\Stubbs.HellDivers2Strats-1.0.0.zip Stubbs.HellDivers2Strats-1.0.0.macroDeckPlugin
 ```
-Use **Extensions → Install from file** in Macro Deck, select the generated `.macroDeckPlugin`, and restart Macro Deck to complete the installation (Macro Deck applies local installs on restart).
+Import the generated `.macroDeckPlugin` via **Extensions -> Install from file** inside Macro Deck and restart the app to activate the plugin.
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-## Packaging for distribution
-Create a `.macroDeckPlugin` archive (zip with custom extension) containing:
-```
-Stubbs.HellDivers2Strats.dll
-ExtensionManifest.json
-Plugin.png
-```
-<<<<<<< HEAD
-Macro Deck users can import the package through **Package Manager → Install from file**.
-=======
-## Installing manually
-Copy the release DLL alongside `ExtensionManifest.json` and `ExtensionIcon.png` into `%AppData%\Macro Deck\plugins\Stubbs.HellDivers2Strats`, then restart Macro Deck.
->>>>>>> e8a3b94 (build fixes)
-=======
-## Installing manually
-Copy the release DLL alongside `ExtensionManifest.json` and `ExtensionIcon.png` into `%AppData%\Macro Deck\plugins\Stubbs.HellDivers2Strats`, then restart Macro Deck.
->>>>>>> e8a3b94 (build fixes)
-=======
-Macro Deck users can import the package through **Package Manager -> Install from file**.
->>>>>>> 270ba632ef17768b56c849ba7c1b120439c0d169
+## Manual Installation
+Copy `Stubbs.HellDivers2Strats.dll`, `ExtensionManifest.json`, and `ExtensionIcon.png` into `%AppData%\Macro Deck\plugins\Stubbs.HellDivers2Strats`, then restart Macro Deck.
 
 ## Publishing to the Extension Store
-Follow the workflow in [Macro-Deck-Extensions](https://github.com/Macro-Deck-App/Macro-Deck-Extensions#readme). Provide this repository URL (`https://github.com/rstubbs94/Stubbs.HellDivers2Strats`) and version `1.0.0` when running the "Add/Update Extension" GitHub Action.
+1. Update the metadata in `ExtensionManifest.json` (notably `version`) to match the release.
+2. Build and package the plugin (see steps above) and smoke-test by importing the archive locally.
+3. Sign in to the [Macro Deck developer portal](https://my.macrodeck.org) and upload the `.macroDeckPlugin` along with screenshots and release notes.
+4. Submit the listing for review and, once approved, tag the corresponding release in this repository.
 
 ## License
 Released under the MIT License. See [LICENSE](LICENSE).
+
