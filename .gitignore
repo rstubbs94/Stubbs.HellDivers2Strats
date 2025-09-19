@@ -1,0 +1,20 @@
+﻿# Build outputs
+bin/
+obj/
+*.log
+*.pdb
+*.deps.json
+*.dll
+*.nuget.cache
+*.nuget.dgspec.json
+*.nuget.g.props
+*.nuget.g.targets
+
+# VS/IDE
+*.user
+*.suo
+
+# Generated data
+strategems.csv
+strategems_normalized.txt
+search.html

@@ -1,0 +1,239 @@
+MG-43 Machine Gun	
+Down Left Down Up Right
+
+APW-1 Anti-Materiel Rifle	
+Down Left Right Up Down
+
+M-105 Stalwart	
+Down Left Down Up Up Left
+
+EAT-17 Expendable Anti-Tank	
+Down Down Left Up Right
+
+GR-8 Recoilless Rifle	
+Down Left Right Right Left
+
+FLAM-40 Flamethrower	
+Down Left Up Down Up
+
+AC-8 Autocannon	
+Down Left Down Up Up Right
+
+MG-206 Heavy Machine Gun	
+Down Left Up Down Down
+
+RL-77 Airburst Rocket Launcher	
+Down Up Up Left Right
+
+MLS-4X Commando	
+Down Left Up Down Right
+
+RS-422 Railgun	
+Down Right Down Up Left Right
+
+FAF-14 Spear	
+Down Down Up Down Down
+
+StA-X3 W.A.S.P. Launcher	
+Down Down Up Down Right
+
+Orbital Gatling Barrage	
+Right Down Left Up Up
+
+Orbital Airburst Strike	
+Right Right Right
+
+Orbital 120mm HE Barrage	
+Right Right Down Left Right Down
+
+Orbital 380mm HE Barrage	
+Right Down Up Up Left Down Down
+
+Orbital Walking Barrage	
+Right Down Right Down Right Down
+
+Orbital Laser	
+Right Down Up Right Down
+
+Orbital Napalm Barrage	
+Right Right Down Left Right Up
+
+Orbital Railcannon Strike	
+Right Up Down Down Right
+
+Eagle Strafing Run	
+Up Right Right
+
+Eagle Airstrike	
+Up Right Down Right
+
+Eagle Cluster Bomb	
+Up Right Down Down Right
+
+Eagle Napalm Airstrike	
+Up Right Down Up
+
+LIFT-850 Jump Pack	
+Down Up Up Down Up
+
+Eagle Smoke Strike	
+Up Right Up Down
+
+Eagle 110mm Rocket Pods	
+Up Right Up Left
+
+Eagle 500kg Bomb	
+Up Right Down Down Down
+
+M-102 Fast Recon Vehicle	
+Left Down Right Down Right Down Up
+
+Orbital Precision Strike	
+Right Right Up
+
+Orbital Gas Strike	
+Right Right Down Right
+
+Orbital EMS Strike	
+Right Right Left Down
+
+Orbital Smoke Strike	
+Right Right Down Up
+
+E/MG-101 HMG Emplacement	
+Down Up Left Right Right Left
+
+FX-12 Shield Generator Relay	
+Down Down Left Right Left Right
+
+A/ARC-3 Tesla Tower	
+Down Up Right Up Left Right
+
+E/GL-21 Grenadier Battlement	
+Down Right Down Left Right
+
+MD-6 Anti-Personnel Minefield	
+Down Left Up Right
+
+B-1 Supply Pack	
+Down Left Down Up Up Down
+
+GL-21 Grenade Launcher	
+Down Left Up Left Down
+
+LAS-98 Laser Cannon	
+Down Left Down Up Left
+
+MD-I4 Incendiary Mines	
+Down Left Left Down
+
+AX/LAS-5 "Guard Dog" Rover	
+Down Up Left Up Right Right
+
+SH-20 Ballistic Shield Backpack	
+Down Left Down Down Up Left
+
+ARC-3 Arc Thrower	
+Down Right Down Up Left Left
+
+MD-17 Anti-Tank Mines	
+Down Left Up Up
+
+LAS-99 Quasar Cannon	
+Down Down Up Left Right
+
+SH-32 Shield Generator Pack	
+Down Up Left Right Left Right
+
+MD-8 Gas Mines	
+Down Left Left Right
+
+A/MG-43 Machine Gun Sentry	
+Down Up Right Right Up
+
+A/G-16 Gatling Sentry	
+Down Up Right Left
+
+A/M-12 Mortar Sentry	
+Down Up Right Right Down
+
+AX/AR-23 "Guard Dog"	
+Down Up Left Up Right Down
+
+A/AC-8 Autocannon Sentry	
+Down Up Right Up Left Up
+
+A/MLS-4X Rocket Sentry	
+Down Up Right Right Left
+
+A/M-23 EMS Mortar Sentry	
+Down Up Right Down Right
+
+EXO-45 Patriot Exosuit	
+Left Down Right Up Left Down Down
+
+EXO-49 Emancipator Exosuit	
+Left Down Right Up Left Down Up
+
+TX-41 Sterilizer	
+Down Left Up Down Left
+
+AX/TX-13 "Guard Dog" Dog Breath	
+Down Up Left Up Right Up
+
+SH-51 Directional Shield	
+Down Up Left Right Up Up
+
+E/AT-12 Anti-Tank Emplacement	
+Down Up Left Right Right Right
+
+A/FLAM-40 Flame Sentry	
+Down Up Right Down Up Up
+
+B-100 Portable Hellbomb	
+Down Right Up Up Up
+
+LIFT-860 Hover Pack	
+Down Up Up Down Left Right
+
+CQC-1 One True Flag	
+Down Left Right Right Up
+
+GL-52 De-Escalator	
+Down Right Up Left Right
+
+AX/ARC-3 "Guard Dog" K-9	
+Down Up Left Up Right Left
+
+PLAS-45 Epoch	
+Down Left Up Left Right
+
+A/LAS-98 Laser Sentry	
+Down Up Right Down Up Right
+
+LIFT-182 Warp Pack	
+Down Left Right Down Left Right
+
+S-11 Speargun	
+Down Right Down Left Up Right
+
+EAT-700 Expendable Napalm	
+Down Down Left Up Left
+
+MS-11 Solo Silo	
+Down Up Right Down Down
+
+Reinforce	
+Up Down Right Left Up
+
+SoS Beacon	
+Up Down Right Up
+
+Resupply	
+Down Down Up Right
+
+Eagle Rearm	
+Up Up Left Up Right
+
+Hellbomb	
+Down Up Left Down Up Right Down Up
