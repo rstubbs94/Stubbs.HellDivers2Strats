@@ -1,14 +1,14 @@
-﻿# HellDivers2Strats
+﻿# Stubbs.HellDivers2Strats
 
 Macro Deck 2 plugin that exposes Helldivers 2 stratagems as ready-to-use actions. Each action sends the correct Control + arrow inputs so the stratagem picker opens and the combination executes in sequence.
 
 ## Features
-- 80 stratagem definitions pulled from Helldivers 2 (Reinforce, Resupply, exosuits, sentries, etc.).
-- Simple action configuration – pick a stratagem from the dropdown; no manual key mapping.
-- Timing tuned for the in-game stratagem wheel and uses native key simulation (`keybd_event`) for broad compatibility.
+- 80 stratagem definitions covering reinforcements, resupplies, sentries, exosuits, and more.
+- Simple configuration: pick a stratagem from the dropdown; no manual key mapping required.
+- Timing tuned for the in-game stratagem wheel using native key simulation (`keybd_event`) for broad compatibility.
 
 ## Requirements
-- [Macro Deck 2](https://macrodeck.org/) 2.14.1 or newer.
+- [Macro Deck 2](https://macrodeck.org/) version 2.14.1 or newer.
 - Plugin API version 40.
 - Windows.
 
@@ -16,7 +16,7 @@ Macro Deck 2 plugin that exposes Helldivers 2 stratagems as ready-to-use actions
 ```powershell
 cd src
 # Restore dependencies and build a release binary
- dotnet build -c Release
+dotnet build -c Release
 ```
 The compiled plugin can be found at `src\bin\Release\net8.0-windows\Stubbs.HellDivers2Strats.dll`.
 
@@ -32,10 +32,10 @@ Stubbs.HellDivers2Strats.dll
 ExtensionManifest.json
 Plugin.png
 ```
-Macro Deck users can import the package through **Package Manager → Install from file**.
+Macro Deck users can import the package through **Package Manager -> Install from file**.
 
 ## Publishing to the Extension Store
-Follow the workflow in [Macro-Deck-Extensions](https://github.com/Macro-Deck-App/Macro-Deck-Extensions#readme). Provide this repository URL (`https://github.com/rstubbs94/Stubbs.HellDivers2Strats`) and the version `1.0.0` when running the “Add/Update Extension” GitHub Action.
+Follow the workflow in [Macro-Deck-Extensions](https://github.com/Macro-Deck-App/Macro-Deck-Extensions#readme). Provide this repository URL (`https://github.com/rstubbs94/Stubbs.HellDivers2Strats`) and version `1.0.0` when running the "Add/Update Extension" GitHub Action.
 
 ## License
 Released under the MIT License. See [LICENSE](LICENSE).
