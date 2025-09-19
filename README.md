@@ -33,6 +33,7 @@ Rename-Item dist\Stubbs.HellDivers2Strats-1.0.0.zip Stubbs.HellDivers2Strats-1.0
 Use **Extensions → Install from file** in Macro Deck, select the generated `.macroDeckPlugin`, and restart Macro Deck to complete the installation (Macro Deck applies local installs on restart).
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ## Packaging for distribution
 Create a `.macroDeckPlugin` archive (zip with custom extension) containing:
 ```
@@ -41,6 +42,10 @@ ExtensionManifest.json
 Plugin.png
 ```
 Macro Deck users can import the package through **Package Manager → Install from file**.
+=======
+## Installing manually
+Copy the release DLL alongside `ExtensionManifest.json` and `ExtensionIcon.png` into `%AppData%\Macro Deck\plugins\Stubbs.HellDivers2Strats`, then restart Macro Deck.
+>>>>>>> e8a3b94 (build fixes)
 =======
 ## Installing manually
 Copy the release DLL alongside `ExtensionManifest.json` and `ExtensionIcon.png` into `%AppData%\Macro Deck\plugins\Stubbs.HellDivers2Strats`, then restart Macro Deck.
