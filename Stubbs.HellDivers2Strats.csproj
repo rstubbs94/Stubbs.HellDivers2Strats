@@ -7,6 +7,7 @@
     <UseWindowsForms>true</UseWindowsForms>
     <RootNamespace>Stubbs.HellDivers2Strats</RootNamespace>
     <AssemblyName>Stubbs.HellDivers2Strats</AssemblyName>
+    <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
   </PropertyGroup>
 
   <ItemGroup>
